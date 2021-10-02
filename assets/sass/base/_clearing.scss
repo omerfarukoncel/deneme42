@@ -1,0 +1,12 @@
+.clearfix:before,
+.clearfix:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
